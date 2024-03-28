@@ -1,0 +1,63 @@
+/*
+COLOR PALETTE
+DARKEST
+#756AB6
+#AC87C5
+#E0AED0
+#FFE5E5
+LIGHTEST
+*/
+body {
+    display: flex;
+    justify-content: center;
+    background-color:#FFe5e5;
+}
+#headShot {
+    
+    border-radius: 7px;
+}
+#nameBox {
+    background-color: #AC87C5;
+}
+.row{
+    /* border: 3px solid black; */
+    border-radius: 7px;
+    padding: 5px;
+    background-color: #756AB6;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column {
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #AC87C5;
+    display:flex;
+    flex-flow: column;
+    display:flex;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 5px;
+}
+div {
+    align-content: center;
+}
+section {
+    padding: 5px;
+    border-radius: 7px;
+    /* border: 2px dashed orange; */
+    background-color: #E0AED0;
+}
+ul {
+    list-style-type: none;
+}
+ul ul {
+    list-style-type: disc;
+}
+li {
+    justify-content: flex-start;
+}
